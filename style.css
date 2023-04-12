@@ -75,6 +75,7 @@ header {
 
 .button-top {
     color: #fff;
+    margin-right: 20px;
 }
 
 span {
@@ -756,7 +757,6 @@ td {
     cursor: pointer;
 }
 
-
 /* ! */
 
 .finally-footer {
@@ -765,7 +765,9 @@ td {
 
 .finally-footer-info {
     color: #FFFFFF;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
 
     padding: 25px 0;
 }
