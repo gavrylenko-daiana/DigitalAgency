@@ -207,6 +207,8 @@ span {
 
 .succesfully-projects-subtitle {
     position: relative;
+    opacity: 0.5;
+    /* Adjust this value to change the transparency of the text */
 }
 
 .succesfully-projects-subtitle p {
@@ -299,7 +301,7 @@ span {
 /* ! */
 
 .worker {
-    background-color: #18191A;
+    background-color: #000000;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -512,6 +514,7 @@ span {
     align-items: center;
 }
 
+
 .blog-title {
     color: #FFFFFF;
     font-weight: 600;
@@ -552,10 +555,16 @@ span {
 }
 
 .blog-sub-txt {
-    color: #FF5300;
+    /* color: #FF5300; */
     font-size: 16px;
 
     margin-bottom: 20px;
+
+    background: -webkit-linear-gradient(left, rgb(253, 119, 1), rgb(255, 251, 0));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .blog-icon {
@@ -594,7 +603,7 @@ span {
 .contact {
     background-color: #18191A;
     padding-top: 120px;
-    /* padding-bottom: 70px; */
+    padding-bottom: 70px;
 }
 
 .contact-subtitle {
@@ -633,11 +642,7 @@ span {
 .contact-back {
     background-color: #242526;
     width: 370px;
-    /* margin-bottom: 50px; */
     height: 230px;
-
-    /* color: #fff;
-    font-size: 20px; */
 }
 
 .contact-info-txt {
@@ -660,10 +665,82 @@ span {
 }
 
 /* ! */
+.form-for-customers {
+    background-color: #18191A;
+    padding: 90px 0 60px 0;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 123.6%;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    width: 250px;
+    height: 40px;
+    background: #242526;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    margin-right: 10px;
+}
+
+textarea {
+    width: 524px;
+    height: 130px;
+    background: #242526;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #FFFFFF;
+    resize: none;
+    margin-bottom: 18px;
+}
+
+.form-button {
+    width: 190px;
+    height: 50px;
+    background: #FF5300;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* ! */
 
 .foot-icon-elem {
     background-color: #2b2b2b;
     padding: 30px 220px 30px;
+}
+
+.spotify-block-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotify-frame {
+    border-radius: 12px;
+    max-width: 100%;
+    height: 152px;
+    margin-top: 40px;
 }
 
 .group-icon-foot {
@@ -755,7 +832,7 @@ td {
     color: #FFFFFF;
     padding: 15px 22.5px;
     cursor: pointer;
-}
+} 
 
 /* ! */
 
