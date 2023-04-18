@@ -852,3 +852,10 @@ td {
 .finally-footer-info p {
     margin: 0 10px;
 }
+
+/* ! */
+
+.video {
+    margin-top: 60px;
+    margin-left: 200px;
+} 
