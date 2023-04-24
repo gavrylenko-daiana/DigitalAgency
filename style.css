@@ -781,7 +781,7 @@ td {
     padding: 0px 0 10px 0;
 }
 
-.brief h2 {
+.brief > h2 {
     font-weight: 600;
     font-size: 39px;
     max-width: 494px;
@@ -811,7 +811,7 @@ td {
     margin-top: 20px;
 }
 
-.footer-form form {
+.footer-form > form {
     display: flex;
 }
 
@@ -849,7 +849,7 @@ td {
     padding: 25px 0;
 }
 
-.finally-footer-info p {
+.finally-footer-info > .finally-footer-child-class-info {
     margin: 0 10px;
 }
 
